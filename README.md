@@ -18,10 +18,6 @@ const App = () => {
     }
   })
 
-  if (user === null) {
-    return <div>loading...</div>
-  }
-
   return (
     <div>
       <button onClick={fetchUser}>FETCH!</button>
