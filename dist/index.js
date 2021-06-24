@@ -17,8 +17,8 @@ export const useFetchUntilMounting = dependencyList => {
         });
       return fetch(resolve).then(
         commit => {
-          if (isMounted()) {
-            commit?.();
+          if (isMounted() && commit) {
+            commit();
           }
         },
         error => {
