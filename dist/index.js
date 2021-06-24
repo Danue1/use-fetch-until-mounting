@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 export const useFetchUntilMounting = dependencyList => {
   const ref = useRef();
