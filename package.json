@@ -1,6 +1,6 @@
 {
   "name": "use-fetch-until-mounting",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "const fetch = useFetchUntilMounting([...dependencyList])",
   "main": "dist/index.js",
   "types": "types",
